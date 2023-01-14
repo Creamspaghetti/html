@@ -1,0 +1,25 @@
+p > span{
+    color: blue;
+} /* p태그 내의 span태그의 스타일 설정(모든 태그에 설정) */
+
+p > .title{
+    font-size: 300%;
+    font-weight: 700;
+} /* >는 ~안의 ~라는 뜻, p > span 은 p 안의 span */
+
+.layout{
+    background-color: yellow; /* 배경색 */
+    width: 300px; /* 가로 */
+    height: 400px; /* 세로 */
+    border: 2px solid rgb(193, 25, 25); /* 테두리 solid는 실선 */
+    border-radius: 100px; /* 테두리 구부리기 */
+    text-align: center;
+    } /* 텍스트 정렬 */
+
+.title2{
+    color: rgb(83, 3, 175);
+    font-size: 400%;
+    font-weight: 700;
+    margin-top: 200px; /* 상단으로부터 떨어지는 거리 */
+    
+}
